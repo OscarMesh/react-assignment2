@@ -1,0 +1,16 @@
+.about {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-info p {
+  font-style: normal;
+  font-size: 20px;
+  text-align: justify;
+  color: #516081;
+  max-width: 500px;
+}

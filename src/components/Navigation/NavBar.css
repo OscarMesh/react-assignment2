@@ -1,0 +1,36 @@
+.navContainer {
+  border-bottom: 1px solid rgb(223, 219, 219);
+}
+.navContainer .nav {
+  padding: 8px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navContainer .nav span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.navContainer .nav span h2 {
+  color: #00fff6;
+}
+.navContainer .nav .nav-links ul {
+  list-style-type: none;
+}
+
+.navContainer .nav .nav-links ul li {
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+}
+.nav .nav-links ul li .link {
+  color: #63708f;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 34px;
+  text-decoration: none;
+}

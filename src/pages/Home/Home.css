@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.info-home {
+  padding: 5%;
+}
+
+.info-home h3 {
+  color: #63708f;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.info-home p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 42px;
+  color: #63708f;
+  font-style: italic;
+}

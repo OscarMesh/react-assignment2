@@ -1,0 +1,157 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.section__padding {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.section__margin {
+  margin: auto;
+  max-width: 1200px;
+}
+@media screen and (max-width: 1115px) {
+  .section__margin {
+    margin: 2rem 4rem;
+  }
+
+  .section__padding {
+    padding: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  .section__padding {
+    padding: 2rem;
+  }
+
+  .section__margin {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 1rem;
+  }
+
+  .section__margin {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 1rem;
+  }
+
+  .section__margin {
+    margin: 1rem;
+  }
+}
+
+
+/* User page */
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background: #e5e5e5;
+}
+
+.container h3 {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.19px;
+  line-height: 44px;
+  color: #899bc5;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.25),
+    4px 4px 16px rgba(137, 155, 197, 0.4);
+  border-radius: 8px;
+  width: 320px;
+  height: 360px;
+  text-align: center;
+}
+
+#username {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  color: #516081;
+}
+
+#email {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  color: #301f77;
+}
+
+#add {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  color: #516081;
+}
+
+#num {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  color: #516081;
+}
+
+.card-img {
+  margin: 1.2rem;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.loading{
+  text-align: center;
+  padding: 25%;
+  margin: auto;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Product Sans";
+}
+
+
+
+/* About Page */
+
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    padding-left: 10%;
+  }
+
+  /* Error page */
+  .error-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
