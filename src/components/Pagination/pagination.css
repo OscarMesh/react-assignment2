@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  max-width: 200px;
+  width: 100%;
+  align-items: center;
+}
+.page-item.active {
+  background: #e7e3e3;
+  color: #000000;
+  padding: 18px;
+}
+nav ul li a {
+  cursor: pointer;
+  background: #fffefe;
+  border: 1px solid #76b4ff;
+  box-shadow: 0px 14px 9px 3px rgba(65, 65, 65, 0.1);
+  padding: 15px;
+}
+
+nav ul li a:hover {
+  color: #000000;
+  background: #e7e3e3;
+}
