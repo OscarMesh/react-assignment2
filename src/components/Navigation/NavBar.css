@@ -4,7 +4,6 @@
 .navContainer .nav {
   padding: 8px;
   display: flex;
-
   flex-direction: row;
   justify-content: space-between;
 }
@@ -33,4 +32,27 @@
   cursor: pointer;
   line-height: 34px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+  .navContainer .nav {
+    padding: 4px;
+  }
+  .navContainer .nav span {
+    width: 100%;
+    max-width: 120px;
+    gap: 10px;
+  }
+
+  .navContainer .nav span h2 {
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .navContainer .nav .nav-links ul li {
+    gap: 10px;
+  }
+  .nav .nav-links ul li .link {
+    font-size: 12px;
+  }
 }

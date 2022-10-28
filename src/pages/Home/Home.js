@@ -4,7 +4,6 @@ import Anime from "../../assets/lottie.json";
 import Lottie from "react-lottie";
 import Navbar from "../../components/Navigation/Navbar";
 
-
 const Home = () => {
   const defaultOptions = {
     loop: true,
@@ -19,7 +18,7 @@ const Home = () => {
       <Navbar />
       <div className="home section__margin">
         <div className="info-home">
-          <Lottie options={defaultOptions} width={500} />
+          <Lottie options={defaultOptions} />
 
           <h3>Altschool-FrontEnd Engineering Assignment-2</h3>
           <p>

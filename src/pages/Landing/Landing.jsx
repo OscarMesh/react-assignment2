@@ -15,7 +15,7 @@ const Landing = () => {
   };
   return (
     <div className="landing section__padding">
-      <Lottie options={defaultOptions} width={500} />
+      <Lottie options={defaultOptions}/>
       <Link to="/home">
         <button>Proceed To home</button>
       </Link>

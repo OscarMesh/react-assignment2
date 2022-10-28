@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 500px;
 }
 
 .landing button {
@@ -16,4 +17,22 @@
   font-size: 24px;
   font-weight: 600;
   cursor: pointer;
+}
+.landing button:hover {
+  padding: 15px;
+  background-color: #71f130;
+}
+
+@media screen and (max-width: 550px) {
+  .landing {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    margin-top: 100px;
+    align-items: center;
+  }
+
+  .landing button {
+    font-size: 14px;
+  }
 }

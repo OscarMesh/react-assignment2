@@ -9,6 +9,8 @@
 
 .info-home {
   padding: 5%;
+  width: 100%;
+  max-width: 700px;
 }
 
 .info-home h3 {
@@ -25,4 +27,19 @@
   line-height: 42px;
   color: #63708f;
   font-style: italic;
+}
+
+@media screen and (max-width: 550px) {
+  .info-home {
+    width: 100%;
+    max-width: 350px;
+  }
+  .info-home h3 {
+    font-size: 18px;
+  }
+  .info-home p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
 }

@@ -18,7 +18,7 @@ const About = () => {
     <div>
       <Navbar />
       <div className="about section__padding">
-        <Lottie options={defaultOptions} width={700} />
+        <Lottie options={defaultOptions}/>
         <div className="about-info">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quia

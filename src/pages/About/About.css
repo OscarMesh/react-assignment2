@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  width: 100%;
+  max-width: 700px;
 }
 
 .about-info p {
@@ -13,4 +15,16 @@
   text-align: justify;
   color: #516081;
   max-width: 500px;
+}
+
+@media screen and (max-width: 550px) {
+  .about {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 400px;
+  }
+  .about-info p {
+    margin-top: 30px;
+    font-size: 14px;
+  }
 }
